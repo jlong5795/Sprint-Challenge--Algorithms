@@ -6,7 +6,7 @@ Your function must utilize recursion. It cannot contain any loops.
 def count_th(word):
     count = 0
     # we can only evaluate if there are at least 2 letters in the word
-    if len(word) > 2:
+    if len(word) >= 2:
         # if the first letter is 't' and the second is 'h' increment count by 1
         if word[0] == 't' and word[1] == 'h':
             count += 1

@@ -2,7 +2,7 @@
 
 ## Exercise I
 
-a)
+a) O(1) the runtime 
 
 
 b)
