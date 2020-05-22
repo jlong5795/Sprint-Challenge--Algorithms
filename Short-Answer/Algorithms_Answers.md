@@ -6,7 +6,7 @@ a) O(n) The calulations made doesn't change. The calulations required are fixed 
 
 
 b) O(n^2) There is a nested operation that must be run for each element in the outer loop
-
+O(n(log(n)))
 
 c) O(n) We have a single operation and a single input
 

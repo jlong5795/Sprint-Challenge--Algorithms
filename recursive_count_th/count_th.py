@@ -8,9 +8,9 @@ def count_th(word):
     # we can only evaluate if there are at least 2 letters in the word
     if len(word) >= 2:
         # if the first letter is 't' and the second is 'h' increment count by 1
-        if word[0] == 't' and word[1] == 'h':
+        if word[:2] == 'th':
             count += 1
-            return count + count_th(word[1:])
+            return count + count_th(word[2:]) # because you know the "second" letter can't be a t
         else:
             return count_th(word[1:])
     
